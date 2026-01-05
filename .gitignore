@@ -12,3 +12,7 @@ top_level.txt
 
 # Python bytecode
 *.pyc
+
+# Build outputs
+build/
+dist/
