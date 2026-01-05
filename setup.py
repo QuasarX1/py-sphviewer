@@ -85,9 +85,9 @@ class BuildExt(build_ext):
 extensions = [
     Extension(path, sources=[source])
     for path, source in {
-        "sphviewer/extensions/scene": "sphviewer/extensions/scenemodule.c",
-        "sphviewer/extensions/render": "sphviewer/extensions/rendermodule.c",
-        "sphviewer/tools/makehsv": "sphviewer/tools/makehsvmodule.c",
+        "sphviewer.extensions.scene": "sphviewer/extensions/scenemodule.c",
+        "sphviewer.extensions.render": "sphviewer/extensions/rendermodule.c",
+        "sphviewer.tools.makehsv": "sphviewer/tools/makehsvmodule.c",
     }.items()
 ]
 
