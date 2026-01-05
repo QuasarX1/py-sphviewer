@@ -114,6 +114,7 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Multimedia :: Graphics",
         "Topic :: Multimedia :: Graphics :: 3D Rendering",
         "Topic :: Multimedia :: Graphics :: Viewers",
