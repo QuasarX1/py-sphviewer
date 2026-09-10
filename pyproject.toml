@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "numpy>2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-sphviewer"
+dynamic = ["version"]
+requires-python = ">= 3.10"
+description = "Py-SPHViewer is a framework for rendering particles using the smoothed particle hydrodynamics scheme."
+authors = [
+  {name = "Alejandro Benitez Llambay", email = "bllalejandro@gmail.com"},
+]
+maintainers = [
+  {name = "Christopher J. R. Rowe", email = "info@cjrrowe.com"},
+]
+readme = "README.md"
+license="GPL-3.0"
+license-files = ["LICENSE"]
+dependencies = ["pykdtree", "numpy>2", "matplotlib", "scipy"]
+keywords = ["smoothed particle hydrodynamics", "render", "particles", "nbody", "galaxy formation", "dark matter", "sph", "cosmology", "movies"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering",
+    "Topic :: Multimedia :: Graphics :: Viewers",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Repository = "https://github.com/alejandrobll/py-sphviewer"
